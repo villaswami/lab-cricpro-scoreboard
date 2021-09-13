@@ -1,7 +1,84 @@
-/* Type your code here */
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family:Nunito Sans;
+}
+#logo{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 25px;
 
+}
+h1{
+	margin-left: 40px;
+	padding-top: 15px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px grey;
+	font-family:Nunito Sans ;
+	
+}
+h1+p{
+	margin-left: 40px;
+	font-size: 25px;
+	color:darkgrey;
+	font-family:Nunito Sans;
+	text-shadow:2px 2px 2px lightcoral;
+}
+#inn{
+	display: flex;
+	justify-content: space-around;
+	color:white;
+	margin-left: 40px;
+	background-color: tomato;
 
-/* change the font family and spacing as per your project font */
+	justify-content: space-between;
+	height: 60px;
+	width: 1060px;
+	font-family:Nunito Sans  ;
+	padding:10px 20px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	
+	
+}
+p{
+	font-size:20px;
+	font-weight: bold;
+
+}
+table{
+	margin-left: 40px;
+	font-size: 20px;
+	border-collapse: collapse;
+	height: 400px;
+	width: 1100px;
+	
+	background-color: white;
+
+}
+th,td{
+	border-bottom:1px solid lightcoral;
+}
+#center{
+	text-align: center;
+}
+#right{
+	text-align: right;
+	padding-right: 40px;
+}
+#left{
+	text-align: left;
+	padding-left:30px;
+
+}
+.left+p{
+	text-align: left;
+	
+}
+a{
+	text-decoration: none;
+	color:blue
+}
 .footer{
     display:flex;
     flex-direction: row;
